@@ -9,11 +9,11 @@ url: "https://tianqili.org" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
-homepage: www.tianqili.org
-github:  github
+homepage: https://www.tianqili.org
+github:  https://github.com/DickLiTQ
 
 #Additional Pages
-#about: about
+about: https://www.tianqili.org/CV
 #contact: contact
 privacy-policy: privacy-policy
 
