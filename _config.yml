@@ -1,43 +1,57 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Hanuman
+description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://samanyougarg.com" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+# Social
+facebook: facebook
+twitter: twitter
+github:  github
+
+#Additional Pages
+about: about
+contact: contact
+privacy-policy: privacy-policy
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: samanyougarg #github username
+repo: hanuman #github repository
+branch: master #branch
+relative_source: ../hanuman/ #source directory
+destination: ../hanuman-pages/ #destination directory
+production_url:  https://samanyougarg.com/
+source_url:  https://github.com/samanyougarg/hanuman #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
