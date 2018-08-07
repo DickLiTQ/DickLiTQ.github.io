@@ -6,7 +6,5 @@ tags: Research
 author: Tianqi Li
 ---
 
-### University Patent Research
-
 - This file will be filled.
 - Now it is just a test.
