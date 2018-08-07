@@ -1,16 +1,15 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Homepage of DickLiTQ
+description: A homepage for showing research related information.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://www.tianqili.org" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
-twitter: twitter
+homepage: www.tianqili.org
 github:  github
 
 #Additional Pages
@@ -38,13 +37,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: DickLiTQ #github username
+repo: DickLiTQ.github.io #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+relative_source: ../DickLiTQ.github.io/ #source directory
+destination: ../DickLiTQ.github.io/ #destination directory
+production_url:  https://tianqili.org/
+source_url:  https://github.com/DickLiTQ/ #source repository url
 
 exclude:
   - README.md
