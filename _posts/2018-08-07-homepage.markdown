@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Homepage of Tianqi Li"
+date:   2018-08-07 11:05:43 +0800
+categories: homepage
+---
+
+* University Patent Analysis
+
+Check my [personal website][personal-website] for more information.
+
+[personal-website]:
+www.tianqili.org
