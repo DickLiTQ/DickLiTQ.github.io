@@ -1,10 +1,10 @@
 # Site settings
-title: Homepage of DickLiTQ
-description: A homepage for showing research related information.
+title: Homepage of Tianqi Li
+description: - Research Information Description -
 cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/ or / for root
+#logo: assets/images/logo.png
+#favicon: assets/images/favicon.png
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://www.tianqili.org" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
@@ -13,8 +13,8 @@ homepage: www.tianqili.org
 github:  github
 
 #Additional Pages
-about: about
-contact: contact
+#about: about
+#contact: contact
 privacy-policy: privacy-policy
 
 
