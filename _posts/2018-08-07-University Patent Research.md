@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "University Patent Research"
+title:  "Patent Applications by Chinese University"
 date:   2018-08-07 12:00:00 +0800
 tags: Research
-author: Tianqi Li
+author: Cui and Li (2018)
 ---
 
-- This file will be filled.
-- Now it is just a test.
+[Show an ECharts graph](htmlpreview.github.io/?https://github.com/DickLiTQ/DickLiTQ.github.io/blob/master/htmls/Patent_CityYear_2000to2016.html)
