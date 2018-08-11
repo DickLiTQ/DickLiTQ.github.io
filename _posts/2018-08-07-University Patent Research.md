@@ -6,4 +6,4 @@ tags: Research
 author: Cui and Li (2018)
 ---
 
-[Show an ECharts graph](htmlpreview.github.io/?https://github.com/DickLiTQ/DickLiTQ.github.io/blob/master/htmls/Patent_CityYear_2000to2016.html)
+[Show an ECharts.js  graph](htmlpreview.github.io/?https://github.com/DickLiTQ/DickLiTQ.github.io/blob/master/htmls/Patent_CityYear_2000to2016.html)
